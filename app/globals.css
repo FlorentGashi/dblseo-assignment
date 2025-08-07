@@ -120,3 +120,39 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .container {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+  
+  /* Clase para secciones con padding vertical y horizontal mejorado */
+  .section-padding {
+    @apply py-16 px-4 sm:py-20 sm:px-6 lg:py-24 lg:px-8;
+  }
+  
+  /* Contenedor para contenido de texto con márgenes laterales */
+  .content-container {
+    @apply mx-auto max-w-4xl px-4 sm:px-6 lg:px-8;
+  }
+  
+  /* Contenedor más ancho para layouts de grid */
+  .grid-container {
+    @apply mx-auto max-w-6xl px-4 sm:px-6 lg:px-8;
+  }
+  
+  /* Asegurar que ningún contenido toque los bordes en móviles */
+  .safe-area {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+  
+  /* Padding responsive para secciones */
+  .responsive-padding {
+    @apply px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16;
+  }
+  
+  /* Para formularios y contenido que necesita más espacio */
+  .form-container {
+    @apply mx-auto max-w-2xl px-4 sm:px-6 lg:px-8;
+  }
+}
