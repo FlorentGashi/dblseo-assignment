@@ -28,14 +28,7 @@ Build a complete, multi-page **SEO-optimized** marketing website for a **roofing
 - **Location**: *Choose any major city (e.g., Dallas, TX; Phoenix, AZ; Miami, FL)*  
 - **Industry**: Residential Roofing Services  
 
-Define a realistic services offering. At minimum include four services. Common options (choose your own set):
-- Roof Repair
-- Roof Replacement
-- Gutter Installation
-- Storm Damage Repair
-- Roof Inspections
-- Asphalt Shingle / Metal Roofing
-- Insurance Claims Assistance
+Define a realistic services offering. At minimum include four services.
 
 > Keep decisions consistent across pages (brand voice, visuals, city, services, CTAs).
 
