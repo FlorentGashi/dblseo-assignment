@@ -27,15 +27,15 @@ The repo contains:
 
 Build a complete, multi-page **SEO-optimized** marketing website for:
 
-- **Business Name**: ABC Plumber  
-- **Location**: Austin, TX  
-- **Industry**: Residential Plumbing Services
+- **Business Name**: Titan Roofing  
+- **Location**: Dallas, TX  
+- **Industry**: Residential Roofing Services  
 
-The business offers typical plumbing services such as:
-- Drain Cleaning  
-- Water Heater Repair & Installation  
-- Leak Detection  
-- Emergency Plumbing  
+The business offers typical roofing services such as:
+- Roof Repair  
+- Roof Replacement  
+- Gutter Installation  
+- Storm Damage Repair  
 
 ---
 
@@ -51,52 +51,52 @@ The business offers typical plumbing services such as:
   - Embedded Google Map  
 
 ### ✅ Service Pages
-- At least **2 individual service pages**
-- A **main services hub page** with dropdown navigation
+- At least **2 individual service pages** (e.g., Roof Repair, Roof Replacement)  
+- A **main services hub page** with dropdown navigation  
 
 ### ✅ About Page
-- Company story, mission, values
+- Company story, mission, values  
 
 ### ✅ Contact Page
-- Fake/placeholder contact form
+- Fake/placeholder contact form  
 
 ### ✅ 404 Page
-- Custom, SEO-friendly 404 page
+- Custom, SEO-friendly 404 page  
 
 ---
 
 ## ✅ What We’re Looking For
 
-- Clean, **responsive design (mobile-first)** using **shadcn UI** + **Tailwind CSS**
+- Clean, **responsive design (mobile-first)** using **shadcn UI** + **Tailwind CSS**  
 - On-page **SEO best practices**:
-  - Meta titles & descriptions
-  - Logical URL structure & hierarchy
-  - Crawlability & indexation
-  - XML sitemap
-  - Semantic HTML5
-  - Internal + external linking
-  - Schema markup (JSON-LD)
-  - Open Graph tags for sharing
+  - Meta titles & descriptions  
+  - Logical URL structure & hierarchy  
+  - Crawlability & indexation  
+  - XML sitemap  
+  - Semantic HTML5  
+  - Internal + external linking  
+  - Schema markup (JSON-LD)  
+  - Open Graph tags for sharing  
 
-- Fast performance (lazy loading, image optimization, etc.)
-- Reusable components, clean architecture
-- Realistic, **human-like placeholder content** (no Lorem Ipsum)
+- Fast performance (lazy loading, image optimization, etc.)  
+- Reusable components, clean architecture  
+- Realistic, **human-like placeholder content** (no Lorem Ipsum)  
 
 ---
 
 ## 🧠 Additional Guidelines
 
-- You may use **AI tools** to generate content, but polish it for quality
-- Make your own design/styling/content structure decisions
-- Focus on **real-world UX & SEO best practices**
-- Optimize images and lazy-load large assets where applicable
+- You may use **AI tools** to generate content, but polish it for quality  
+- Make your own design/styling/content structure decisions  
+- Focus on **real-world UX & SEO best practices**  
+- Optimize images and lazy-load large assets where applicable  
 
 ---
 
 ## 📦 Deliverables (Due in 24 Hours)
 
-- Create a new **public GitHub repo** and push your complete project
-- Include a `README.md` update with:
+- Create a new **public GitHub repo** and push your complete project  
+- Include a `README.md` update with:  
   - Short description of your approach  
   - Any assumptions or implementation notes  
   - How you implemented SEO (meta tags, JSON-LD, Open Graph, etc.)  
@@ -106,11 +106,11 @@ The business offers typical plumbing services such as:
 
 ## 🧪 What We’re Evaluating
 
-- Your ability to deliver a **functional, SEO-optimized website**
-- Understanding of **SEO fundamentals** & semantic HTML
-- Effective use of **Next.js** and reusable components
-- **Clean code**, responsive layout, good UX
-- Creativity & independent problem-solving
+- Your ability to deliver a **functional, SEO-optimized website**  
+- Understanding of **SEO fundamentals** & semantic HTML  
+- Effective use of **Next.js** and reusable components  
+- **Clean code**, responsive layout, good UX  
+- Creativity & independent problem-solving  
 
 ---
 
