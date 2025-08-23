@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://apexroofing.com/sitemap.xml
+
+# Disallow crawling of admin pages
+Disallow: /admin/
+Disallow: /wp-admin/
