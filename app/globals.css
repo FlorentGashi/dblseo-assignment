@@ -114,9 +114,103 @@
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    @apply border-border;
   }
   body {
     @apply bg-background text-foreground;
   }
+  
+  /* Improved focus visibility for accessibility */
+  :focus-visible {
+    outline: 2px solid hsl(var(--ring));
+    outline-offset: 2px;
+  }
+  
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Better text rendering */
+  body {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+  .mobile-optimized {
+    font-size: clamp(14px, 4vw, 18px);
+    line-height: 1.5;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 25s linear infinite;
+}
+
+@keyframes shine-once {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  25% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  36%, 100% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
+
+.animate-shine-once {
+  animation: shine-once 8s ease-in-out infinite;
+}
+
+
+
+/* Add smooth curve dividers */
+.curve-divider {
+  position: relative;
+  height: 60px;
+  overflow: hidden;
+}
+
+.curve-divider::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 60px;
+  background: currentColor;
+  clip-path: path('M0,0 C300,60 900,-60 1200,0 L1200,60 L0,60 Z');
 }
